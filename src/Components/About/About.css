@@ -1,0 +1,41 @@
+.about {
+  background-color: var(--bg-light);
+}
+
+.about .row {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap : 10px 40px;
+}
+
+.about .col-heading h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.about .col-heading p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img-container {
+    display: flex;
+    gap: 10px;
+}
+
+.img-container #staff, 
+.img-container #person {
+    flex-basis: 49%;
+}
+
+/* ! Responsive part  */
+
+@media (max-width: 768px) {
+    .about .row {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap : 10px 40px;
+}
+}

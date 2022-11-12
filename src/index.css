@@ -1,0 +1,135 @@
+/* Poppins Google Fonts  */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/* Resets  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Variables  */
+:root {
+  --brand-color: #ff6e42;
+  --brand-dark: #f53900;
+  --white: #fff;
+  --black-color: #000;
+  --bg-light: #f5f8fc;
+  --nav-color: #111;
+  --text-color: #444444;
+  --filter-border: #dee2e6;
+  --border-color: rgba(0, 0, 0, 0.125);
+  --box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
+  --font-family-sans-serif: 'Poppins', sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+}
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.15;
+  font-family: var(--font-family-sans-serif);
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--brand-dark);
+  border-radius: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--white);
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+
+a {
+  color: var(--brand-color);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: var(--brand-dark);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 150%;
+}
+
+section {
+  padding: 90px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  background-color: var(--brand-color);
+  padding: 8px 18px;
+  text-transform: capitalize;
+  color: var(--white) !important;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid var(--brand-color);
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  background-color: var(--brand-dark);
+  border-color: var(--brand-dark);
+  color: var(--black-color) !important; 
+}
+
+.heading {
+  text-align: center;
+  margin-inline: auto;
+}
+
+.heading h2 {
+  color: var(--text-color);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  max-width: 350px;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}

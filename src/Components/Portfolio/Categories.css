@@ -1,0 +1,48 @@
+.btn-container {
+  margin: 50px auto;
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  width: 420px;
+  height: 52px;
+  border-radius: 30px;
+}
+
+.btn-container button {
+  border: none;
+  color: var(--text-color);
+  background-color: var(--white);
+  text-transform: capitalize;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 30px;
+  outline: none;
+  overflow: hidden;
+}
+
+.btn-container button:hover {
+  background-color: var(--brand-color);
+  padding: 10px 15px;
+  border-radius: 30px;
+  color: var(--white);
+}
+
+/* Responsive part  */
+
+@media (max-width: 550px) {
+  .btn-container {
+    width: 300px;
+    gap: 7px;
+  }
+  .btn-container button {
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
