@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click here to see the live Project [Live Now](https://iamahsan512.github.io/react-lead-mark/).
 
 ## Available Scripts
 
